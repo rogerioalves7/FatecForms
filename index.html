@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styles.css">
+<title>Projeto II - Formulários</title>
+</head>
+<body>
+
+  <div id="telaFlutuante" class="tela-flutuante">
+    <p>Dados enviados com sucesso!</p>
+  </div>
+
+
+<div class="forms">
+  <h1 style="text-align: center;">Formulário do Aluno</h1>
+<form id="fatecForms">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+  <label for="email">Sobrenome:</label>
+  <input type="text" id="lastName" name="lastName" placeholder="Digite seu sobrenome">
+
+  <label for="idade">RA:</label>
+  <input type="number" id="ra" name="ra" placeholder="Digite seu R.A">
+
+  <label for="cidade">Unidade:</label>
+  <input type="text" id="unidade" name="unidade" placeholder="Digite sua unidade da Fatec">
+
+  <label for="interesse">Semestre atual:</label>
+  <select id="interesse" name="interesse">
+    <option value="">Selecione uma opção</option>
+    <option value="primeiro">1º Semestre</option>
+    <option value="segundo">2º Semestre</option>
+    <option value="terceiro">3º Semestre</option>
+    <option value="quarto">4º Semestre</option>
+    <option value="quinto">5º Semestre</option>
+    <option value="sexto">6º Semestre</option>
+    <option value="sétimo">7º Semestre</option>
+  </select>
+
+  <label for="mensagem">Mensagem para professores:</label>
+  <textarea id="mensagem" name="mensagem" rows="4" placeholder="Coloque aqui uma mensagem para um professor que você goste."></textarea>
+<div class="form-button">
+  <button type="submit" id="formButton">Enviar</button>
+</div>
+</form>
+</div>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
