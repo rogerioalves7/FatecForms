@@ -71,5 +71,5 @@ submitButton.addEventListener('click', function(event){
         telaFlutuante.style.display = 'none';
       }, 5000); 
     }
-    // Consistência de dados validada
+    // Consistência de dados validada..
 })
