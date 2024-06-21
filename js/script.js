@@ -65,7 +65,7 @@ submitButton.addEventListener('click', function(event){
       let telaFlutuante = document.getElementById('telaFlutuante');
       telaFlutuante.style.display = 'block';
 
-      console.log('oioioi');
+      console.log('oioioioi');
 
       setTimeout(function() {
         telaFlutuante.style.display = 'none';
